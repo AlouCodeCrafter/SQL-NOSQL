@@ -1,0 +1,46 @@
+Diapositive 1 
+ Comparaison entre MongoDB et SQL
+
+Contenu:
+ SQL (bases de données relationnelles) et NoSQL (bases de données non relationnelles)
+
+Diapositive 2 : 
+Présentation de SQL
+
+Contenu:
+
+SQL  est utilisé pour interagir avec des bases de données relationnelles
+Exemples de SGBDR: MySQL, PostgreSQL, Oracle, SQL Server
+Caractéristiques:
+Structure tabulaire (tables, lignes, colonnes)
+Schéma fixe et structuré
+Relations entre les tables (clé primaire, clé étrangère)
+Langage SQL pour les requêtes
+
+Diapositive 3 :
+ Présentation de MongoDB
+
+ MongoDB est une base de données NoSQL orientée document qui stocke les données sous forme de documents JSON.
+Structure flexible (documents JSON/BSON)
+Schéma dynamique
+Collections de documents
+Haute performance et évolutivité horizontale
+Indexation puissante et agrégations
+
+Diapositive 4 : 
+Comparaison entre MongoDB et SQL
+
+SQL : Modèle relationnel, structuré en tables et relations
+MongoDB : Modèle orienté document, flexible et sans schéma fixe
+SQL : Langage SQL standardisé
+MongoDB : Requêtes en JSON, API native
+SQL : Schéma rigide et défini à l'avance
+MongoDB : Schéma flexible, documents peuvent varier
+SQL : Scalabilité verticale (ajout de ressources à un seul serveur)
+MongoDB : Scalabilité horizontale (partitionnement des données entre plusieurs serveurs)
+SQL : Transactions ACID
+MongoDB : Transactions multi-documents depuis la version 4.0, sinon transactions par document
+SQL : Applications avec des relations complexes et des transactions lourdes (ex: systèmes bancaires)
+MongoDB : Applications nécessitant flexibilité et scalabilité (ex: big data, IoT, applications web en temps réel)
+
+Diapositive 5 : Conclusion
